@@ -1,17 +1,13 @@
 import keras
+import tensorflow
 import numpy as np
 import pickle
 from numpy.linalg import norm
 import cv2
-import gdown
 from keras import utils
 from keras.layers import GlobalMaxPooling2D
 from keras.applications.resnet import ResNet50, preprocess_input
 from sklearn.neighbors import NearestNeighbors
-
-# url = "https://drive.google.com/file/d/1oPk1DXyLx_cu267vzF9jAxuJwOB7UDWN/view?usp=sharing"
-# output = "image_features.pkl"
-# gdown.download(url, output, quiet=False)
 
 img_feats_lst = pickle.load(open('image_features.pkl', 'rb'))
 imagefiles = pickle.load(open('image_files.pkl', 'rb'))
@@ -35,7 +31,6 @@ recos_mdl.fit(img_feats_lst)
 
 dist, idxs = recos_mdl.kneighbors([norm_image_feats])
 
-print(idxs)
 
 for file in idxs[0][1:6]:
     temp_img = cv2.imread(imagefiles[file])

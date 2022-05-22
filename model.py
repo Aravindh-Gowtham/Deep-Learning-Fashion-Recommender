@@ -1,8 +1,9 @@
+import tensorflow
 import numpy as np
-import os
-import pickle
+# import os
+# import pickle
 from numpy.linalg import norm
-from tqdm import tqdm
+# from tqdm import tqdm
 import tensorflow
 from keras import utils
 from keras.layers import GlobalMaxPooling2D
@@ -25,8 +26,9 @@ def get_image_feats(img_file, inp_model):
     norm_image_feats = image_features/norm(image_features)
     return norm_image_feats
 
+############
 #Below lines are commented after dumping the info into pickle files
-
+############
 #imagefiles = []
 #for f in os.listdir('images'):
 #    imagefiles.append(os.path.join('images', f))
