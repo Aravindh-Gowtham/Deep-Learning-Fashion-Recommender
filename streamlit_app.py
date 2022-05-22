@@ -1,10 +1,9 @@
 import numpy as np
-import tensorflow
+from tensorflow import keras
 import pickle
 import streamlit as st
 from PIL import Image
 import os
-import keras
 from numpy.linalg import norm
 from keras import utils
 from keras.layers import GlobalMaxPooling2D

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df20a373-7fd1-4850-95ec-5002e986a97d" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_files.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/image_files.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-run.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test-run">
+  <component name="RunManager" selected="Python.streamlit_app">
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep-Learning-Fashion-Recommender" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test-run" />
         <item itemvalue="Python.streamlit_app" />
+        <item itemvalue="Python.test-run" />
         <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
